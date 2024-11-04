@@ -1,4 +1,4 @@
-ID,title,prid,descr,impact,criticality,createdAt,createdBy,modifiedAt,modifiedBy
+ID,title,prio,descr,impact,criticality,createdAt,createdBy,modifiedAt,modifiedBy
 43464549-04b0-4768-b941-7e4751a3f89d,title-4346454,prid-4346454,descr-4346454,34,30,2022-04-29T00:00:00.000Z,createdBy.2l5qu@example.org,2020-01-20T00:00:00.000Z,modifiedBy.2l5qu@example.org
 43464556-1a46-45e7-8f1f-e0f9159a0c86,title-4346455,prid-4346455,descr-4346455,67,84,2016-05-19T00:00:00.000Z,createdBy.2l5qv@example.org,2020-08-20T00:00:00.000Z,modifiedBy.2l5qv@example.net
 4346456d-1e1d-4542-bc88-f742bd29acf3,title-4346456,prid-4346456,descr-4346456,91,66,2006-05-02T00:00:00.000Z,createdBy.2l5qw@example.net,2007-12-28T00:00:00.000Z,modifiedBy.2l5qw@example.net

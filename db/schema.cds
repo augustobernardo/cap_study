@@ -7,7 +7,7 @@ entity Risks : managed {
 
     key ID          : UUID @(Core.Computed: true);
         title       : String;
-        prid        : String;
+        prio        : String;
         descr       : String;
         miti        : Association to Mitigations;
         impact      : Integer;
