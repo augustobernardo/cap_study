@@ -1,4 +1,4 @@
-namespace my.cap.study;
+namespace sap.my.risk.managment;
 
 using {managed} from '@sap/cds/common';
 

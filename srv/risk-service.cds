@@ -1,4 +1,4 @@
-using {my.cap.study as my} from '../db/schema';
+using {sap.my.risk.managment as my} from '../db/schema';
 
 @path: 'service/risk'
 
