@@ -1,8 +1,7 @@
-# http://localhost:4004/odata/v4/maths/add(a=1,b=2)
+# http://localhost:34637/odata/v4/maths/add(a=1,b=2)
 
+# http://localhost:34637/odata/v4/maths/subtract(a=1,b=2)
 
-# http://localhost:4004/odata/v4/maths/subtract(a=1,b=2)
+# http://localhost:34637/odata/v4/say/multiply(a=1,b=2)
 
-# http://localhost:58948/odata/v4/say/multiply(a=1,b=2)
-
-# http://localhost:58948/odata/v4/say/divide(a=1,b=2)
+# http://localhost:34637/odata/v4/say/divide(a=1,b=2)
