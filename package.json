@@ -15,11 +15,13 @@
     "@cap-js/sqlite": "^1",
     "@types/node": "^20",
     "cds-swagger-ui-express": "^0.10.0",
-    "typescript": "^5"
+    "typescript": "^5",
+    "@sap/ux-specification": "UI5-1.130"
   },
   "scripts": {
     "start": "cds-serve",
-    "watch": "cds-ts w"
+    "watch": "cds-ts w",
+    "watch-cap-study-risks-managment": "cds watch --open cap-study-risks-managment/webapp/index.html?sap-ui-xx-viewCache=false"
   },
   "cds": {
     "features": {
@@ -28,5 +30,8 @@
   },
   "imports": {
     "#cds-models/*": "./@cds-models/*/index.js"
-  }
+  },
+  "sapux": [
+    "app/cap-study-risks-managment"
+  ]
 }
