@@ -21,79 +21,72 @@ annotate RiskService.Mitigations with {
     risks       @title: 'Risks';
 }
 
-annotate RiskService.Risks with @(
-    UI: {
-        HeaderInfo      : {
-            TypeName      : 'Risk',
-            TypeNamePlural: 'Risks',
-            Title         : {
-                $Type: 'UI.DataField',
-                Value: title,
-            },
-
-            Description   : {
-                $Type: 'UI.DataField',
-                Value: descr,
-            },
+annotate RiskService.Risks with @(UI: {
+    HeaderInfo      : {
+        TypeName      : 'Risk',
+        TypeNamePlural: 'Risks',
+        Title         : {
+            $Type: 'UI.DataField',
+            Value: title,
         },
 
-        SelectionFields : [prio],
-        LineItem        : [
-            {Value: title},
-            {Value: miti_ID},
-            {
-                Value      : prio,
-                Criticality: criticality
-            },
-            {
-                Value      : impact,
-                Criticality: criticality
-            }
-        ],
+        Description   : {
+            $Type: 'UI.DataField',
+            Value: descr,
+        },
+    },
 
-        Facets  : [
-            {
-                $Type : 'UI.ReferenceFacet',
-                Label : 'Main',
-                Target: '@UI.FieldGroup#Main',
-            },
-        ],
+    SelectionFields : [prio],
+    LineItem        : [
+        {Value: title},
+        {Value: miti_ID},
+        {
+            Value      : prio,
+            Criticality: criticality
+        },
+        {
+            Value      : impact,
+            Criticality: criticality
+        }
+    ],
 
-        FieldGroup #Main: {Data: [
-            {Value: miti_ID},
-            {
-                Value      : prio,
-                Criticality: criticality
-            },
-            {
-                Value      : impact,
-                Criticality: criticality
-            }
-        ]},
-    }
-);
+    Facets          : [{
+        $Type : 'UI.ReferenceFacet',
+        Label : 'Main',
+        Target: '@UI.FieldGroup#Main',
+    }, ],
+
+    FieldGroup #Main: {Data: [
+        {Value: miti_ID},
+        {
+            Value      : prio,
+            Criticality: criticality
+        },
+        {
+            Value      : impact,
+            Criticality: criticality
+        }
+    ]},
+});
 
 annotate RiskService.Risks with {
-    miti @(
-        Common: {
-            Text: miti.description,
-            TextArrangement : #TextOnly,
-            ValueList : {
-                Label: 'Mitigations',
-                CollectionPath : 'Mitigations',
-                Parameters: [
-                    { 
-                        $Type: 'Common.ValueListParameterInOut', 
-                        LocalDataProperty: 'miti_ID', 
-                        ValueListProperty: 'ID' 
-                    },
-
-                    {
-                        $Type: 'Common.ValueListParameterDisplayOnly',
-                        ValueListProperty: 'description',
-                    }
-                ],
-            },
-        }
-    )
+    miti @(Common: {
+        Text           : miti.description,
+        TextArrangement: #TextOnly,
+        ValueList      : {
+            Label         : 'Mitigations',
+            CollectionPath: 'Mitigations',
+            Parameters    : [
+                {
+                    $Type            : 'Common.ValueListParameterInOut',
+                    LocalDataProperty: 'miti_ID',
+                    ValueListProperty: 'ID'
+                },
+                {
+                    $Type            : 'Common.ValueListParameterDisplayOnly',
+                    ValueListProperty: 'description',
+                }
+            ],
+        },
+    })
 }
