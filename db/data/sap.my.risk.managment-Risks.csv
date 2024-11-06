@@ -1,5 +1,5 @@
 ID,title,prio,descr,impact,criticality,createdAt,createdBy,modifiedAt,modifiedBy
-43464549-04b0-4768-b941-7e4751a3f89d,Risco de vazamento de dados,High,"Possível exposição de informações sensíveis dos clientes",9,7,2024-05-15,João Silva,2024-05-15,João Silva
-43464556-1a46-45e7-8f1f-e0f9159a0c86,Fraqueza na autenticação web,Medium,"Vulnerabilidade em protocolos de login comuns",6,5,2024-05-16,Ana Rodrigues,2024-05-16,Ana Rodrigues
-4346456d-1e1d-4542-bc88-f742bd29acf3,Risco de denegação de serviço,Low,"Possibilidade de sobrecarga do servidor",3,2,2024-05-17,Pedro Santos,2024-05-17,Pedro Santos
-4346457e-3dbf-4ead-a1fb-28139957f3b0,Exposição de código malicioso,Critical,"Vulnerabilidade em scripts executáveis",10,8,2024-05-18,Marina Santos,2024-05-18,Marina Santos
+43464549-04b0-4768-b941-7e4751a3f89d,Risco de Segurança Cibernética,High,Diferentes sistemas internos expostos por vulnerabilidades cibernéticas,1,1,2024-05-15,Rodrigues Ana,2024-05-15,Rodrigues Ana
+43464556-1a46-45e7-8f1f-e0f9159a0c86,Risco de Desempenho do Sistema,Medium,Subida de uso do sistema pode causar lentidão e instabilidades,1,2,2024-05-16,Santos Pedro,2024-05-16,Santos Pedro
+4346456d-1e1d-4542-bc88-f742bd29acf3,Risco de Conformidade,Medium,Não cumprimento de regulamentações pode resultar em multas e danos à reputação,1,1,2024-05-17,Oliveira Marina,2024-05-17,Oliveira Marina
+4346457e-3dbf-4ead-a1fb-28139957f3b0,Risco de Segurança Física,Low,Acesso não autorizado a áreas sensíveis pode comprometer dados e equipamentos,2,2,2024-05-18,Camila Oliveira,2024-05-18,Camila Oliveira
