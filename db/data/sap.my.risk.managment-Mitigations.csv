@@ -1,9 +1,9 @@
 ID,description,owner,timeline,createdAt,createdBy,modifiedAt,modifiedBy
-30808348-a095-4758-9a6c-ada45ee5a976,description-30808348,owner-30808348,timeline-30808348,2021-03-23T00:00:00.000Z,createdBy.icbvg@example.net,2009-12-31T00:00:00.000Z,modifiedBy.icbvg@example.net
-30808349-fcf5-49e6-99f4-ccaf2a27f3f3,description-30808349,owner-30808349,timeline-30808349,2007-12-08T00:00:00.000Z,createdBy.icbvh@example.com,2000-10-10T00:00:00.000Z,modifiedBy.icbvh@example.com
-30808350-11d8-4893-b093-02561ceacc9b,description-30808350,owner-30808350,timeline-30808350,2000-01-13T00:00:00.000Z,createdBy.icbvi@example.net,2000-07-08T00:00:00.000Z,modifiedBy.icbvi@example.org
-30808351-43c3-439b-8e58-5db291aca4b2,description-30808351,owner-30808351,timeline-30808351,2006-09-13T00:00:00.000Z,createdBy.icbvj@example.org,2003-03-07T00:00:00.000Z,modifiedBy.icbvj@example.net
-30808352-cabd-4a91-b111-82015fd45390,description-30808352,owner-30808352,timeline-30808352,2012-07-01T00:00:00.000Z,createdBy.icbvk@example.com,2003-04-17T00:00:00.000Z,modifiedBy.icbvk@example.net
-30808353-5ddb-46e1-806e-13b48d179390,description-30808353,owner-30808353,timeline-30808353,2022-08-12T00:00:00.000Z,createdBy.icbvl@example.com,2010-03-11T00:00:00.000Z,modifiedBy.icbvl@example.com
-30808354-977d-48f6-b5e8-3b5b5db1b1fd,description-30808354,owner-30808354,timeline-30808354,2009-09-27T00:00:00.000Z,createdBy.icbvm@example.com,2010-03-13T00:00:00.000Z,modifiedBy.icbvm@example.net
-30808355-686d-4fa6-a7ce-b397efb4321a,description-30808355,owner-30808355,timeline-30808355,2000-07-23T00:00:00.000Z,createdBy.icbvn@example.net,2014-08-30T00:00:00.000Z,modifiedBy.icbvn@example.com
+30808348-a095-4758-9a6c-ada45ee5a976,Mitigação de risco de segurança cibernética,João Silva,2024-05-15,2024-05-15 09:30:00,João Silva,2024-05-15 09:30:00,João Silva
+30808349-fcf5-49e6-99f4-ccaf2a27f3f3,Otimização de desempenho do banco de dados,Ana Rodrigues,2024-05-16,2024-05-16 10:15:00,Ana Rodrigues,2024-05-16 10:15:00,Ana Rodrigues
+30808350-11d8-4893-b093-02561ceacc9b,Melhoria na autenticação de usuários,Pedro Santos,2024-05-17,2024-05-17 11:00:00,Pedro Santos,2024-05-17 11:00:00,Pedro Santos
+30808351-43c3-439b-8e58-5db291aca4b2,Aumento da frequência de backups,Marina Santos,2024-05-18,2024-05-18 12:45:00,Marina Santos,2024-05-18 12:45:00,Marina Santos
+30808352-cabd-4a91-b111-82015fd45390,Implementação de firewalls robustos,Camila Oliveira,2024-05-19,2024-05-19 14:30:00,Camila Oliveira,2024-05-19 14:30:00,Camila Oliveira
+30808353-5ddb-46e1-806e-13b48d179390,Atualização de software e plugins,João Silva,2024-05-20,2024-05-20 15:15:00,João Silva,2024-05-20 15:15:00,João Silva
+30808354-977d-48f6-b5e8-3b5b5db1b1fd,Revisão e atualização de políticas de segurança,Ana Rodrigues,2024-05-21,2024-05-21 09:30:00,Ana Rodrigues,2024-05-21 09:30:00,Ana Rodrigues
+30808355-686d-4fa6-a7ce-b397efb4321a,Implementação de VPN seguro,Pedro Santos,2024-05-22,2024-05-22 10:15:00,Pedro Santos,2024-05-22 10:15:00,Pedro Santos

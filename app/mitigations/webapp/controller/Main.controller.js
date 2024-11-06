@@ -1,17 +1,22 @@
 sap.ui.define([
-    "sap/ui/core/mvc/Controller"
+    "mitigations/controller/BaseController"
 ],
-function (Controller) {
+function (BaseController) {
     "use strict";
 
-    return Controller.extend("mitigations.controller.Main", {
+    return BaseController.extend("mitigations.controller.Main", {
         onInit: function () {
 
         },
 
-
-        onNavigateRow: function (oEvent) {
+        onColumnListItemPress: function (oEvent) {
+            const oBindingContext = oEvent.getSource().getBindingContext();
+            const sPath = oBindingContext.getPath();
+            const sKey = sPath.split("(")[1].split(")")[0];
             
+            this.getRouter().navTo("RouteMitigation", {
+                key: sKey
+            });
         },
     });
 });

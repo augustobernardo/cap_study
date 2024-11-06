@@ -96,6 +96,13 @@
           "target": [
             "TargetMain"
           ]
+        },
+        {
+          "name": "RouteMitigation",
+          "pattern": "Mitigations({key}):?query:",
+          "target": [
+            "TargetMitigation"
+          ]
         }
       ],
       "targets": {
@@ -105,6 +112,19 @@
           "clearControlAggregation": false,
           "viewId": "Main",
           "viewName": "Main"
+        },
+        "TargetMitigation": {
+          "viewType": "XML",
+          "transition": "slide",
+          "clearControlAggregation": false,
+          "viewId": "Detail",
+          "viewName": "Detail",
+          "options": {
+            "settings": {
+              "editableHeaderContent": false,
+              "contextPath": "/Mitigations"
+            }
+          }
         }
       }
     },

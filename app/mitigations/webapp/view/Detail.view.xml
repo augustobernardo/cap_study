@@ -1,0 +1,40 @@
+<mvc:View
+	controllerName="mitigations.controller.Detail"
+	xmlns:mvc="sap.ui.core.mvc"
+    xmlns:semantic="sap.f.semantic"
+    xmlns:layout="sap.ui.layout"
+	xmlns="sap.m"
+	displayBlock="true"
+	height="100%"
+	busyIndicatorDelay="0">
+
+    <semantic:SemanticPage 
+        id="idObjectSemanticPage"
+        headerPinnable="false"
+        toggleHeaderOnTitleClick="false">
+
+        <semantic:titleHeading>
+            <Title
+                id="idDescriptionTitle"
+                text="{description}"
+                level="H2"/>
+        </semantic:titleHeading>
+        
+        <semantic:headerContent>
+            <ObjectNumber id="idObjectNumber"/>
+        </semantic:headerContent>
+        
+        <semantic:sendEmailAction>
+            <semantic:SendEmailAction id="idSendEmailAction" press=".onSendEmailActionPress" />
+        </semantic:sendEmailAction>
+
+        <semantic:content>
+            <layout:VerticalLayout id="idVerticalLayout" >
+                <ObjectStatus id="idDescriptionObjectStatus" title="{i18n>mitigation.description}" text="{description}" />
+                <ObjectStatus id="idOwnerObjectStatus" title="{i18n>mitigation.owner}" text="{owner}" />
+                <ObjectStatus id="idTimelineObjectStatus" title="{i18n>mitigation.timeline}" text="{timeline}" />
+            </layout:VerticalLayout>
+        </semantic:content>
+    </semantic:SemanticPage>
+    
+</mvc:View>

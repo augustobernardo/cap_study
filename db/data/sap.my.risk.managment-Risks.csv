@@ -1,5 +1,5 @@
 ID,title,prio,descr,impact,criticality,createdAt,createdBy,modifiedAt,modifiedBy
-43464549-04b0-4768-b941-7e4751a3f89d,title-4346454,1,descr-4346454,34,30,2022-04-29T00:00:00.000Z,createdBy.2l5qu@example.org,2020-01-20T00:00:00.000Z,modifiedBy.2l5qu@example.org
-43464556-1a46-45e7-8f1f-e0f9159a0c86,title-4346455,1,descr-4346455,67,84,2016-05-19T00:00:00.000Z,createdBy.2l5qv@example.org,2020-08-20T00:00:00.000Z,modifiedBy.2l5qv@example.net
-4346456d-1e1d-4542-bc88-f742bd29acf3,title-4346456,2,descr-4346456,91,66,2006-05-02T00:00:00.000Z,createdBy.2l5qw@example.net,2007-12-28T00:00:00.000Z,modifiedBy.2l5qw@example.net
-4346457e-3dbf-4ead-a1fb-28139957f3b0,title-4346457,3,descr-4346457,58,66,2005-09-26T00:00:00.000Z,createdBy.2l5qx@example.net,2018-02-16T00:00:00.000Z,modifiedBy.2l5qx@example.net
+43464549-04b0-4768-b941-7e4751a3f89d,Risco de vazamento de dados,High,"Possível exposição de informações sensíveis dos clientes",9,7,2024-05-15,João Silva,2024-05-15,João Silva
+43464556-1a46-45e7-8f1f-e0f9159a0c86,Fraqueza na autenticação web,Medium,"Vulnerabilidade em protocolos de login comuns",6,5,2024-05-16,Ana Rodrigues,2024-05-16,Ana Rodrigues
+4346456d-1e1d-4542-bc88-f742bd29acf3,Risco de denegação de serviço,Low,"Possibilidade de sobrecarga do servidor",3,2,2024-05-17,Pedro Santos,2024-05-17,Pedro Santos
+4346457e-3dbf-4ead-a1fb-28139957f3b0,Exposição de código malicioso,Critical,"Vulnerabilidade em scripts executáveis",10,8,2024-05-18,Marina Santos,2024-05-18,Marina Santos

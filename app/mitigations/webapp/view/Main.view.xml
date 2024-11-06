@@ -1,39 +1,36 @@
-<mvc:View xmlns:semantic="sap.f.semantic" controllerName="mitigations.controller.Main"
+<mvc:View 
+    controllerName="mitigations.controller.Main"
+    xmlns:semantic="sap.f.semantic" 
     xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
     xmlns="sap.m">
-    <!-- <Page id="page" title="{i18n>title}">
-        <content>
-           
-        </content>
-    </Page> -->
 
-    <semantic:SemanticPage id="_IDGenSemanticPage" >
+    <semantic:SemanticPage id="idMainSemanticPage" >
         <semantic:titleHeading>
-            <Title id="_IDGenTitle" text="{i18n>title}"/>
+            <Title id="idMitigationsTitle" text="{i18n>title}"/>
         </semantic:titleHeading>
         <semantic:content>
             <Table id="idMitigationsTable" items="{/Mitigations}">
                 <columns>
-                    <Column id="_IDGenColumn">
-                        <Text id="_IDGenText1" text="{i18n>mitigation.id}" />
+                    <Column id="idIdColumn" >
+                        <Text id="idIDLabelText" text="{i18n>mitigation.id}" />
                     </Column>
-                    <Column id="_IDGenColumn1">
-                        <Text id="_IDGenText2" text="{i18n>mitigation.owner}" />
+                    <Column id="idOwnerColumn">
+                        <Text id="idOwnerLabelText" text="{i18n>mitigation.owner}" />
                     </Column>
-                    <Column id="_IDGenColumn2">
-                        <Text id="_IDGenText3" text="{i18n>mitigation.description}" />
+                    <Column id="idDescriptionColumn">
+                        <Text id="idDescriptionLabelText" text="{i18n>mitigation.description}" />
                     </Column>
-                    <Column id="_IDGenColumn3">
-                        <Text id="_IDGenText4" text="{i18n>mitigation.timeline}" />
+                    <Column id="idTimelineColumn">
+                        <Text id="idTimelineLabelText" text="{i18n>mitigation.timeline}" />
                     </Column>
                 </columns>
                 <items>
-                    <ColumnListItem id="_IDGenColumnListItem" type="Navigation" press="onNavigateRow">
+                    <ColumnListItem id="idMitigationsColumnListItem" type="Navigation" press=".onColumnListItemPress">
                         <cells>
-                            <Text id="_IDGenText5" text="{ID}" />
-                            <Text id="_IDGenText6" text="{owner}" />
-                            <Text id="_IDGenText7" text="{description}" />
-                            <Text id="_IDGenText8" text="{timeline}" />
+                            <Text id="idIdText" text="{ID}" />
+                            <Text id="idOwnerText" text="{owner}" />
+                            <Text id="idDescriptionText" text="{description}" />
+                            <Text id="idTimelineText" text="{timeline}" />
                         </cells>
                     </ColumnListItem>
                 </items>
